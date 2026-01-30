@@ -47,6 +47,8 @@
 }
 
 :root {
+  --hero-height: 95vh;
+  --nav-height: 72px;
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.13 0.028 261.692);
@@ -115,6 +117,12 @@
   --sidebar-ring: oklch(0.551 0.027 264.364);
 }
 
+@media (max-width: 768px) {
+  :root {
+    --hero-height: 85vh;
+    --nav-height: 64px;
+  }
+}
 @layer base {
   * {
     @apply border-border outline-ring/50;

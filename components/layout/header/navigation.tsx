@@ -12,7 +12,7 @@ export async function Navigation({ locale }: { locale: string }) {
   console.log("Navigation locale:", locale);
   const t = await getTranslations("nav");
 
-  const servicesData = await getServices(locale);
+  // const servicesData = await getServices(locale);
 
   const navLinks = [
     { href: "/", label: t("home") },
@@ -27,7 +27,7 @@ export async function Navigation({ locale }: { locale: string }) {
     { href: "/contact", label: t("contactUs") },
   ];
 
-  // Mock services data
+  
   const mockServices = [
     {
       id: 1,
@@ -98,10 +98,10 @@ export async function Navigation({ locale }: { locale: string }) {
 
   return (
     <>
-      {/* Desktop Navigation */}
+      
       <div
         className="hidden fixed lg:block w-full  top-0 z-50 transition-all duration-300 ease-in-out   
-    bg-transparent hover:bg-orange-950/90 "
+    bg-transparent hover:bg-[#643F2E] "
       >
         <nav className="container max-w-screen-2xl mx-auto flex justify-between items-center py-4 px-4 relative">
           <section>
@@ -114,7 +114,7 @@ export async function Navigation({ locale }: { locale: string }) {
                 src="/next.svg"
                 alt="Al Safar and Partners Logo"
                 width={100}
-                height={100}
+                height={20}
                 className="grayscale-50 sepia-50"
               />
             </Link>

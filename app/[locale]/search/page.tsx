@@ -1,4 +1,3 @@
-// src/app/[locale]/search/page.tsx
 "use client";
 
 import { useState, useEffect } from "react";
@@ -19,14 +18,12 @@ export default function SearchPage() {
   const query = searchParams.get("q") || "";
   const urlSection = searchParams.get("section") as "services" | "team";
 
-  // Set active tab from URL
   useEffect(() => {
     if (urlSection === "services" || urlSection === "team") {
       setActiveTab(urlSection);
     }
   }, [urlSection]);
 
-  // Fetch results when query or tab changes
   useEffect(() => {
     if (query) {
       fetchResults(activeTab);
@@ -38,7 +35,7 @@ export default function SearchPage() {
   const fetchResults = async (section: "services" | "team") => {
     setLoading(true);
     try {
-      const data = await searchContent(query, undefined, section);
+      const data = await searchContent(query, section);
       setResults({
         services: data.services || [],
         team: data.teamMembers || [],
@@ -50,7 +47,6 @@ export default function SearchPage() {
     }
   };
 
-  // Handle tab click - update URL and fetch
   const handleTabClick = (tab: "services" | "team") => {
     setActiveTab(tab);
     router.replace(`?q=${encodeURIComponent(query)}&section=${tab}`);
@@ -61,7 +57,7 @@ export default function SearchPage() {
   const count = currentResults.length;
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen ">
       <div className="container mx-auto px-4 py-8">
         {/* Header */}
         <div className="mb-8">

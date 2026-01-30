@@ -29,13 +29,32 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   return (
     <html lang={locale} dir={direction} suppressHydrationWarning>
-      <body className="antialiased text-foreground relative">
-        {/* Background Image with Brown Overlay */}
-
+      <body className="antialiased text-foreground min-h-screen">
         <NextIntlClientProvider messages={messages}>
-          <div className="relative z-10 min-h-screen flex flex-col">
+          <div className="relative min-h-screen flex flex-col">
             <Navigation locale={locale} />
-            <main className="w-full grow  mx-auto">{children}</main>
+
+            <main className="flex-1">
+              <div className="relative z-10 h-screen">
+                <Image
+                  src="/background.jpg"
+                  alt="Background"
+                  fill
+                  priority
+                  className="object-cover"
+                  quality={75}
+                />
+                <div
+                  className="absolute inset-0"
+                  style={{
+                    background:
+                      "linear-gradient(271.47deg, rgba(75,38,21,.5) 1.2%, rgba(75,38,21,.7) 86.38%)",
+                  }}
+                />
+              </div>
+              {children}
+            </main>
+
             <Footer />
           </div>
         </NextIntlClientProvider>

@@ -60,48 +60,49 @@ export function HeroSlider({ slides, options = {} }: HeroSliderProps) {
 
     const interval = setInterval(() => {
       emblaApi.scrollNext();
-    }, 5000); // Change slide every 5 seconds
+    }, 8000); // Change slide every 5 seconds
 
     return () => clearInterval(interval);
   }, [emblaApi]);
 
   return (
-    <div className="relative w-full h-screen overflow-hidden ">
+    <div className="absolute top-0 w-full h-screen overflow-hidden ">
       {/* Content Container */}
       <div className="relative z-10 container mx-auto px-4 h-full flex items-center">
         <div className="flex justify-between items-center">
           {/* Slider Container - Takes full width on mobile, 7 columns on desktop */}
-          <div className=" relative">
+          <div className="relative">
             <div
-              className="embla__viewport overflow-hidden h-[500px]"
+              className="embla__viewport overflow-hidden h-125"
               ref={emblaRef}
             >
               <div className="embla__container flex flex-col h-full">
                 {slides.map((slide) => (
                   <div
-                    className="embla__slide flex-shrink-0 flex-grow-0 w-full min-h-0 flex items-center px-10"
+                    className="embla__slide shrink-0 grow-0 w-full min-h-0 flex items-center px-10"
                     key={slide.id}
                   >
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 px-6 items-center">
+                    <div className="flex justify-between gap-16 px-6 items-center">
                       {/* Left Side: Title & Description */}
                       <div className="text-white">
-                        <h1 className="text-4xl md:text-5xl lg:text-[40px] font-bold mb-6">
-                          {slide.title}
+                        <h1 className="text-4xl md:text-5xl lg:text-[40px] font-semibold mb-6">
+                          {/* {slide.title} */}
+                          Lorem Ipsum
                         </h1>
                         <p className="text-lg md:text-xl mb-8 opacity-90">
                           {slide.description}
                         </p>
                         <Link
                           href={slide.buttonLink}
-                          className="mt-10 inline-flex items-center px-8 py-3 bg-white text-[#4B2615] font-semibold rounded-lg hover:bg-gray-100 transition-colors duration-300"
+                          className="mt-6 inline-flex items-center px-8 py-3 bg-white text-[#4B2615] font-semibold rounded-lg hover:bg-gray-100 transition-colors duration-300"
                         >
                           {slide.buttonText}
                         </Link>
                       </div>
 
                       {/* Right Side: Fixed 374x374 Image */}
-                      <div className="flex justify-center lg:justify-end">
-                        <div className="relative w-[374px] h-[374px]">
+                      <div className="hidden md:flex justify-center lg:justify-end">
+                        <div className="relative w-[374px] h-[374px] bg-[#643F2E] ">
                           <Image
                             src={slide.image}
                             alt={slide.title}

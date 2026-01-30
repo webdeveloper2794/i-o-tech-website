@@ -1,4 +1,4 @@
-// src/components/layout/search-input.tsx
+
 "use client";
 
 import { useState } from "react";
