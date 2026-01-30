@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "title": "Al Safar and Partners - Law Firm",
+    "description": "Excellence in legal services with integrity and professionalism",
+    "keywords": "legal,law",
+    "author": "Al Safar and Partners",
+    "robots": "index, follow",
+    "url": "https://al-safar-and-partners.com",
+
+    "openGraph": {
+      "type": "website",
+      "locale": "en",
+      "alternateLocale": "ar",
+      "siteName": "Al Safar and Partners"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "aboutUs": "About us",
+    "services": "Services",
+    "ourTeam": "Our Team",
+    "blogs": "Blogs",
+    "contactUs": "Contact Us",
+    "bookAppointment": "Book Appointment"
+  },
+  "search": {
+    "search": "Search",
+    "searchDescription": "Find services or team members",
+    "placeholder": "Type your search here...",
+    "clear": "Clear search",
+    "services": "Services",
+    "team": "Team",
+    "noResults": "No results found",
+
+    "cancel": "Cancel",
+    "resultsFor": "Results for"
+  },
+  "languageSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, ar {Ar} en {En} other {Unknown}}"
+  },
+  "hero": {
+    "title": "Excellence in Legal Services",
+    "subtitle": "Providing comprehensive legal solutions with integrity and professionalism",
+    "cta": "Read more"
+  },
+  "services": {
+    "title": "Our Services",
+    "legalConsultation": "Legal Consultation Services",
+    "defenseInAllCases": "and Defense in All Cases",
+    "servicesForCompanies": "Services for Companies and Institutions",
+    "establishingCompanies": "Establishing National and Foreign Companies",
+    "foreignInvestment": "Foreign Investment Services",
+    "banksAndFinancial": "Banks and Financial Institutions",
+    "arbitration": "Arbitration",
+    "commercialAgencies": "Commercial Agencies",
+    "contracts": "Contracts",
+    "corporateGovernance": "Corporate Governance Services",
+    "intellectualProperty": "Intellectual Property",
+    "supportingVision": "Supporting Vision 2030",
+    "notarization": "Notarization",
+    "companiesLiquidation": "Companies Liquidation",
+    "corporateRestructuring": "Corporate Restructuring and Reorganization",
+    "estates": "Estates",
+    "insurance": "Insurance",
+    "internalRegulations": "Internal Regulations for Companies"
+  },
+  "team": {
+    "title": "Our Team",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "nameHere": "Name Here",
+    "positionHere": "POSITION HERE"
+  },
+  "testimonials": {
+    "title": "What our clients are saying",
+    "description": "Our clients range from individual investors, to local, international as well as fortune 500 companies.Our clients range from individual investors, to local, international as well as fortune 500 companies.",
+    "quote": "With the help of the hospitable staff of Al Safar and Partners I was able to get my work done without any hassle. The help I received helped me a great deal to overcome the issues that I faced. I was always updated about my case and my queries never went unanswered.",
+    "name": "Mohammed Saif",
+    "position": "CEO/Company"
+  },
+  "footer": {
+    "subscribe": "Subscribe to our newsletter",
+    "email": "Email address",
+    "subscribeButton": "Subscribe",
+    "successMessage": "Thank you for subscribing!",
+    "errorMessage": "This email is already subscribed.",
+    "validationError": "Please enter a valid email address.",
+    "links": {
+      "aboutUs": "About Us",
+      "services": "Services",
+      "team": "Our Team",
+      "blogs": "Blogs",
+      "contact": "Contact Us",
+      "privacy": "Privacy Policy",
+      "terms": "Terms & Conditions"
+    },
+    "copyright": "© 2024 Al Safar and Partners. All rights reserved."
+  },
+
+  "error": {
+    "title": "Error",
+    "description": "An error occurred while loading the page. Please try again later.",
+    "retry": "Retry"
+  },
+  "notFound": {
+    "status": "404",
+    "title": "Page Not Found",
+    "description": "The page you are looking for does not exist. Please try again later.",
+    "link": "Go back to the home page"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "title": "الصفار وشركاه - مكتب قانوني",
+    "description": "التميز في الخدمات القانونية بنزاهة واحترافية",
+    "keywords": "legal, law",
+    "author": "الصفار وشركاه",
+    "robots": "index, follow",
+    "url": "https://al-safar-and-partners.com/ar",
+    "openGraph": {
+      "type": "website",
+      "locale": "ar",
+      "alternateLocale": "en",
+      "siteName": "الصفار وشركاه"
+    }
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "aboutUs": "من نحن",
+    "services": "الخدمات",
+    "ourTeam": "فريقنا",
+    "blogs": "المدونات",
+    "contactUs": "اتصل بنا",
+    "bookAppointment": "احجز موعد"
+  },
+  "search": {
+    "search": "بحث",
+    "searchDescription": "البحث عن خدمات أو أعضاء فريق",
+    "placeholder": "اكتب بحثك هنا...",
+    "clear": "مسح البحث",
+    "services": "الخدمات",
+    "team": "الفريق",
+    "noResults": "لم يتم العثور على نتائج",
+
+    "cancel": "إلغاء",
+    "resultsFor": "نتائج لـ"
+  },
+  "languageSwitcher": {
+    "label": "غير اللغة",
+    "locale": "{locale, select, ar {Ar} en {En} other {Unknown}}"
+  },
+  "hero": {
+    "title": "التميز في الخدمات القانونية",
+    "subtitle": "تقديم حلول قانونية شاملة بنزاهة واحترافية",
+    "cta": "اقرأ المزيد"
+  },
+  "services": {
+    "title": "خدماتنا",
+    "legalConsultation": "خدمات الاستشارات القانونية",
+    "defenseInAllCases": "والدفاع في جميع القضايا",
+    "servicesForCompanies": "خدمات للشركات والمؤسسات",
+    "establishingCompanies": "تأسيس الشركات الوطنية والأجنبية",
+    "foreignInvestment": "خدمات الاستثمار الأجنبي",
+    "banksAndFinancial": "البنوك والمؤسسات المالية",
+    "arbitration": "التحكيم",
+    "commercialAgencies": "الوكالات التجارية",
+    "contracts": "العقود",
+    "corporateGovernance": "خدمات الحوكمة المؤسسية",
+    "intellectualProperty": "الملكية الفكرية",
+    "supportingVision": "دعم رؤية 2030",
+    "notarization": "التوثيق",
+    "companiesLiquidation": "تصفية الشركات",
+    "corporateRestructuring": "إعادة الهيكلة وإعادة التنظيم المؤسسي",
+    "estates": "التركات",
+    "insurance": "التأمين",
+    "internalRegulations": "اللوائح الداخلية للشركات"
+  },
+  "team": {
+    "title": "فريقنا",
+    "description": "لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة والتنضيد. كان لوريم إيبسوم النص الشكلي القياسي في الصناعة منذ القرن الخامس عشر",
+    "nameHere": "الاسم هنا",
+    "positionHere": "المنصب هنا"
+  },
+  "testimonials": {
+    "title": "ماذا يقول عملاؤنا",
+    "description": "يتراوح عملاؤنا من المستثمرين الأفراد إلى الشركات المحلية والدولية وكذلك شركات فورتشن 500. يتراوح عملاؤنا من المستثمرين الأفراد إلى الشركات المحلية والدولية وكذلك شركات فورتشن 500.",
+    "quote": "بمساعدة الموظفين المضيافين في الصفار وشركاه تمكنت من إنجاز عملي دون أي متاعب. الدعم الذي تلقيته ساعدني كثيراً في التغلب على المشاكل التي واجهتها. كنت دائماً على اطلاع بقضيتي ولم تبق استفساراتي دون إجابة.",
+    "name": "محمد سيف",
+    "position": "الرئيس التنفيذي / الشركة"
+  },
+  "footer": {
+    "subscribe": "اشترك في نشرتنا الإخبارية",
+    "email": "عنوان البريد الإلكتروني",
+    "subscribeButton": "اشترك",
+    "successMessage": "شكراً لاشتراكك!",
+    "errorMessage": "هذا البريد الإلكتروني مشترك بالفعل.",
+    "validationError": "يرجى إدخال عنوان بريد إلكتروني صحيح.",
+    "links": {
+      "aboutUs": "من نحن",
+      "services": "الخدمات",
+      "team": "فريقنا",
+      "blogs": "المدونات",
+      "contact": "اتصل بنا",
+      "privacy": "سياسة الخصوصية",
+      "terms": "الشروط والأحكام"
+    },
+    "copyright": "© 2024 الصفار وشركاه. جميع الحقوق محفوظة."
+  },
+
+  "error": {
+    "title": "خطأ",
+    "description": "حدث خطأ أثناء تحميل الصفحة. يرجى المحاولة مرة أخرى لاحقاً.",
+    "retry": "إعادة المحاولة"
+  },
+  "notFound": {
+    "status": "404",
+    "title": "الصفحة غير موجودة",
+    "description": "لا يمكن العثور على المصدر المطلوب. يرجى المحاولة مرة أخرى لاحقاً.",
+    "link": "العودة إلى الصفحة الرئيسية"
+  }
+}
